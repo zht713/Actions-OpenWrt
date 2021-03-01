@@ -14,7 +14,6 @@
 sed -i 's/^#\(.*helloworld\)/\1/' openwrt/feeds.conf.default
 
 # Add a feed source
-sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' openwrt/feeds.conf.default
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' openwrt/feeds.conf.default
 
 # Update Luci
