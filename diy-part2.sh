@@ -11,6 +11,6 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.2.2/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.2.254/g' package/base-files/files/bin/config_generate
 #install JD-dailybonus
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git openwrt/package/lean/luci-app-jd-dailybonus
